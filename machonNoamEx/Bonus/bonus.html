@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>מכון נועם</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap C SS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="bonus.css">
+</head>
+<body>
+    <div class="app">
+    <div class="row">
+        <h4 class=".col-3">מבחנים כמותיים</h4>
+    </div>
+    <div class="courseDetails">
+    <div class="row">
+            <div class="col-12 nextEx">התרגול הבא:</div>
+    </div>
+    <div class="row">
+            <div class="col-12 title">חשבון: סדרות - רמה 1 גירסה 4</div>
+    </div>
+    <div class="row">
+        <div class="col-12 time">6:30 דק'</div>
+</div>
+<div class="row">
+    <div class="col-12">
+    <button type="button" class="startEx">התחל תרגול</button>
+</div>
+</div>
+</div>
+<div class="row includeTest" style="text-align: right;">
+    מבחנים כלולים בפרק זה:
+</div>
+<div class="row sdarot" id="sdarot" onclick="OpenOrClose()">
+    <div class="col-2 exName">
+        <img src="vi.png" width="20" height="20" style="margin-left: 10px;"/>
+        סדרות
+    </div>
+    <div class="col-3" style="text-align: right; ">
+        <img id="arrowId" src="arrowLeftImg.png" width="20" height="20" />
+    </div>
+    <div class="col-4"></div>
+    <div class="col-3 countEx">תרגלת 2/6 מבחנים</div>
+</div>
+<div id="sdarotDetails" style="display: none;">
+    <div class="row sdarotDetails">
+        <div class="col-2 " style="text-align: left;">
+            <img src="vi.png" width="30" height="30"/>
+        </div>
+        <div class="col-3 detailFont">
+            חשבון: בעיות בחשבון (אחוזים)
+            סדרות רמה 1 גירסה 3
+        </div>
+        <div class="col-3 detailFont gradeDate"> 
+            12/07/2018  |  ציון 6
+        </div>
+        <div class="col-1 detailFont more">עוד</div>
+        <div class="col-3 ">
+        <button type="button" class="exAgainBtn">תרגל שוב</button>
+        </div>
+    </div>
+    <div class="row sdarotDetails">
+        <div class="col-2 " style="text-align: left;">
+            <img src="video.png" width="30" height="30"/>
+        </div>
+        <div class="col-3 detailFont">
+           וידאו הדרכה 1
+        </div>
+        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-3 ">
+        <button type="button" class="exAgainBtn">לצפייה</button>
+        </div>
+    </div>
+    <div class="row sdarotDetails">
+        <div class="col-2 " style="text-align: left;">
+            <img src="vi.png" width="30" height="30"/>
+        </div>
+        <div class="col-3 detailFont">
+            חשבון: בעיות בחשבון (אחוזים)
+            סדרות רמה 1 גירסה 3
+        </div>
+        <div class="col-3 detailFont gradeDate"> 
+            12/08/2018  |  ציון 7
+        </div>
+        <div class="col-1 detailFont more">עוד</div>
+        <div class="col-3 ">
+        <button type="button" class="exAgainBtn">תרגל שוב</button>
+        </div>
+    </div>
+    <div class="row results sdarotDetails">
+        <div class="col-2 "></div>
+        <div class="col-3 detailFont gradeDate">
+           #3    |    12/08/2018    |    ציון: 7
+        </div>
+        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-3 detailFont more gradeDate" style="text-align: center!important;">דו"ח תוצאות
+        </div>
+    </div>
+    <div class="row results sdarotDetails">
+        <div class="col-2 "></div>
+        <div class="col-3 detailFont gradeDate">
+           #2    |    11/08/2018    |    ציון: 4
+        </div>
+        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-3 detailFont more gradeDate" style="text-align: center!important;">דו"ח תוצאות
+        </div>
+    </div>
+    <div class="row results sdarotDetails">
+        <div class="col-2 "></div>
+        <div class="col-3 detailFont gradeDate">
+           #1    |    1/05/2018    |    ציון: 5
+        </div>
+        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-3 detailFont more gradeDate" style="text-align: center!important;">דו"ח תוצאות
+        </div>
+    </div>
+    <div class="row sdarotDetails">
+        <div class="col-2 " style="text-align: left;">
+            <img src="grayV.jpg" width="30" height="30"/>
+        </div>
+        <div class="col-3 detailFont">
+            חשבון: בעיות בחשבון (אחוזים)
+            סדרות רמה 1 גירסה 3
+        </div>
+        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-3 ">
+        <button type="button" class="readBtn">התחל תרגול</button>
+        </div>
+    </div>
+    <div class="row sdarotDetails">
+        <div class="col-2 " style="text-align: left;">
+            <img src="documentImg.png" width="30" height="30"/>
+        </div>
+        <div class="col-3 detailFont">
+            קובץ הדרכה 1 (קריאה)
+        </div>
+        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-3 ">
+        <button type="button" class="readBtn">לקריאה</button>
+        </div>
+    </div>
+    <div class="row sdarotDetails">
+        <div class="col-2 " style="text-align: left;">
+            <img src="grayV.jpg" width="30" height="30"/>
+        </div>
+        <div class="col-3 detailFont">
+            חשבון: בעיות בחשבון (אחוזים)
+            סדרות רמה 1 גירסה 3
+        </div>
+        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-3 ">
+        <button type="button" class="readBtn">התחל תרגול</button>
+        </div>
+    </div>
+    <div class="row sdarotDetails">
+        <div class="col-2 " style="text-align: left;">
+            <img src="grayV.jpg" width="30" height="30"/>
+        </div>
+        <div class="col-3 detailFont">
+            חשבון: בעיות בחשבון (אחוזים)
+            סדרות רמה 1 גירסה 3
+        </div>
+        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-3 ">
+        <button type="button" class="readBtn">התחל תרגול</button>
+        </div>
+    </div>
+    <div class="row sdarotDetails">
+        <div class="col-2 " style="text-align: left;">
+            <img src="grayV.jpg" width="30" height="30"/>
+        </div>
+        <div class="col-3 detailFont">
+            חשבון: בעיות בחשבון (אחוזים)
+            סדרות רמה 1 גירסה 3
+        </div>
+        <div class="col-3"></div>
+        <div class="col-1"></div>
+        <div class="col-3 ">
+        <button type="button" class="readBtn">התחל תרגול</button>
+        </div>
+    </div>
+</div>
+<div class="row hasakaCamotit">
+    <div class="col-2 exName">
+        <img src="vi.png" width="20" height="20" />
+        הסקה כמותית</div>
+    <div class="col-3" style="text-align: right;">
+        <img src="arrowLeftImg.png" width="20" height="20" />
+    </div>
+    <div class="col-4"></div>
+    <div class="col-3 countEx">תרגלת 8/8 מבחנים</div>
+</div>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="bonus.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

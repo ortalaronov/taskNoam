@@ -1,0 +1,151 @@
+
+.app
+{
+    direction: rtl;
+    text-align: center;
+    width:85%;
+    margin: 0 auto;
+}
+
+.courseDetails
+{
+    background: ghostwhite;
+    height: 160px;
+    border: 1px solid lightgray;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+
+.courseDetails .startEx
+{
+    background-color: #db456c;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    height: 33px;
+    width: 20%;
+}
+.courseDetails .nextEx{
+    margin-top: 12px;
+font-size: 14px;
+    font-weight: 500;
+}
+
+.courseDetails .title{
+font-size: 18px;
+    font-weight: 700;
+}
+.courseDetails .time{
+    margin-top: 11px;
+font-size: 13px;
+font-weight: 200;
+margin-bottom: 10px;
+}
+
+.includeTest
+{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.sdarot{
+    border-bottom: 1px solid lightgray;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.countEx
+{
+    font-size: 11px;
+    font-weight: 700;
+}
+.exName{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+}
+.detailFont{
+font-size: 12px;
+    font-weight: 500;
+    text-align: right;
+}
+.gradeDate
+{
+    line-height: 36px;
+}
+.more{
+    line-height: 36px;
+    color: cornflowerblue; 
+}
+.sdarotDetails{
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.exAgainBtn
+{
+    background-color: white;
+    color: #db456c;
+    border: 1px solid #db456c;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 33px;
+    width: 60%;
+
+}
+.results
+{
+    background: ghostwhite;
+}
+.readBtn
+{
+    background-color: #db456c;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 33px;
+    width: 60%;
+    border:none
+
+}
+.hasakaCamotit{
+padding-top: 22px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid lightgray;
+
+}
+/*****media*****/
+@media screen and (max-width: 750px) {
+    .courseDetails .startEx {
+        width: 50%;
+    }
+    .col-md-2{
+        width: 8%;
+    }
+    .col-md-3{
+        width: 18%;
+    }
+    .exAgainBtn
+{
+    width: 100%;
+    font-size: 10px;
+}
+.readBtn
+{
+    width: 100%;
+    font-size: 10px;
+}
+  }
+  @media screen and (max-width: 400px) {
+    .sdarotDetails .col-3{
+max-width: 53%;
+flex: none;
+    }
+  }
